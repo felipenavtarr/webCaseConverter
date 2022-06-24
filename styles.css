@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.title {
+    font-size: xxx-large;
+}
+
+textarea {
+    height: 60vh;
+    font-size: 1.5em;
+}
+
+#button_wrapper {
+    margin-top: 10px;
+}
+
+button {
+    border: 0;
+    border-radius: 3px;
+    background-color: coral;
+    padding: 5px;
+}
+
+button:not(:last-of-type) {
+    margin-right: 10px;
+}
